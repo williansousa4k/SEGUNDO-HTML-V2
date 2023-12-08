@@ -3,3 +3,5 @@ Com a página sobre o Marco Zero feita, é necessário de uma outra página e de
 
  1. crie um link que irá direcionar para essa nova página; 
  2. adicione imagens sobre os lugares. 
+
+Agora que já aprendeu as propriedades básicas da CSS, é possível aprimorar a atividade anterior aplicando estilos para a página que você já criou.
