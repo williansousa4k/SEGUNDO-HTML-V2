@@ -20,6 +20,14 @@ nav {
     background-color: rgb(255, 255, 255);
     justify-content: space-evenly;
     align-items: center;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+#nav {
+    display: flex;
+    gap: 3rem;
 }
 
 a {
@@ -28,9 +36,8 @@ a {
     color: rgb(0, 71, 202);;
 }
 
-ul#nav2 {
-    display: flex;
-    gap: 3rem;
+#banner {
+    align-items: end
 }
 
 .title {
@@ -39,17 +46,69 @@ ul#nav2 {
     line-height: 15rem;
     background-color: rgb(0, 83, 192);
     color: aliceblue;
-    font-size: 25px;
+    font-size: 27px;
+    padding: 30px;
+    height: 170px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-aside {
-    background-color: rgb(227, 231, 0);
-    line-height: 2rem;
+
+section {
+    display: flex;
+    padding: 10rem;
+    margin: 28rem;
+    flex-direction: column;
+    gap: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+#inicio {
+    display: inline;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height:100px;
+}
+
+.imagens {
+    display: inline;
+    line-height: 30px;
+}
+
+h2 {
+    line-height: 75px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 83, 192);
+    color: aliceblue;
+    height: 300px;
+    align-items: center;
+}
+
+.links {
+    color: aliceblue;
+}
+
+#social-media {
     
 }
 
-ul#cat {
-    justify-content:center;
+#opcoes {
+    list-style: none;
     display: flex;
-    gap: 5rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#user {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
